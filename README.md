@@ -50,9 +50,9 @@ This project is designed to simulate a real-time online examination environment 
 
   -->Run Login.java or Main.java
   
-  -->Compile-javac -cp ".;lib/mysql-connector-j-9.7.0.jar" src/*.java
+  -->Compile-  javac -cp ".;lib/mysql-connector-j-9.7.0.jar" src/*.java
   
-  -->run-java -cp ".;src;lib/mysql-connector-j-9.7.0.jar" Main
+  -->run-   java -cp ".;src;lib/mysql-connector-j-9.7.0.jar" Main
 
 
 Login Page:
