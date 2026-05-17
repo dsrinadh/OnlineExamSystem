@@ -67,10 +67,13 @@ Login Authentication:
 
 Question Page:
 
-<img width="482" height="361" alt="image" src="https://github.com/user-attachments/assets/280b37fe-e559-4b96-b6cb-36cd8678ebc8" />
+ <img width="992" height="453" alt="image" src="https://github.com/user-attachments/assets/d43e4f53-689f-4ec9-98ad-dbfef85ed7d3" />
+
 
 Result Page:
-  <img width="992" height="453" alt="image" src="https://github.com/user-attachments/assets/d43e4f53-689f-4ec9-98ad-dbfef85ed7d3" />
+
+<img width="482" height="361" alt="image" src="https://github.com/user-attachments/assets/280b37fe-e559-4b96-b6cb-36cd8678ebc8" />
+ 
 
 
 
