@@ -1,7 +1,7 @@
 # 🖥️ Online Exam System
 
 ## 📌 Project Title
-Online Exam System using Java (Swing + JDBC)
+Online Exam System using Java (JDBC + Threads + Swings + GUI)
 
 ---
 
