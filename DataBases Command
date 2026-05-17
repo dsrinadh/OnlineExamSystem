@@ -1,0 +1,153 @@
+//Create DataBases
+CREATE DATABASE online_exam;
+
+//Create User Table
+CREATE TABLE users (
+    ->     username VARCHAR(50),
+    ->     password VARCHAR(50)
+    -> );
+
+//Create Question Table
+CREATE TABLE questions (
+    ->     id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     question VARCHAR(255),
+    ->     option1 VARCHAR(100),
+    ->     option2 VARCHAR(100),
+    ->     option3 VARCHAR(100),
+    ->     option4 VARCHAR(100),
+    ->     correct_answer VARCHAR(100));
+
+//Create table Result
+CREATE TABLE results (
+    ->     id INT PRIMARY KEY AUTO_INCREMENT,
+    ->     username VARCHAR(50),
+    ->     score INT
+    -> );
+
+//Assign Username and Password
+ INSERT INTO users VALUES('admin','1234');
+
+
+//Insert into questions
+INSERT INTO questions
+    -> (question, option1, option2, option3, option4, correct_answer)
+    -> VALUES
+    ->
+    -> ('Java is developed by?',
+    -> 'Microsoft',
+    -> 'Sun Microsystems',
+    -> 'Google',
+    -> 'Apple',
+    -> 'Sun Microsystems'),
+    ->
+    -> ('Which package is used for JDBC?',
+    -> 'java.sql',
+    -> 'java.jdbc',
+    -> 'javax.sql',
+    -> 'database.sql',
+    -> 'java.sql'),
+    ->
+    -> ('What is JVM?',
+    -> 'Java Virtual Machine',
+    -> 'Java Vendor Machine',
+    -> 'Joint Virtual Method',
+    -> 'None',
+    -> 'Java Virtual Machine'),
+    ->
+    -> ('Which company owns Java now?',
+    -> 'Google',
+    -> 'Oracle',
+    -> 'IBM',
+    -> 'Microsoft',
+    -> 'Oracle'),
+    ->
+    -> ('Which keyword is used for inheritance?',
+    -> 'this',
+    -> 'super',
+    -> 'extends',
+    -> 'implements',
+    -> 'extends'),
+    ->
+    -> ('Which package is used for Swing?',
+    -> 'java.sql',
+    -> 'java.io',
+    -> 'javax.swing',
+    -> 'java.net',
+    -> 'javax.swing'),
+    ->
+    -> ('Which loop executes at least once?',
+    -> 'for',
+    -> 'while',
+    -> 'do while',
+    -> 'foreach',
+    -> 'do while'),
+    ->
+    -> ('Which keyword is used to create a subclass?',
+    -> 'implement',
+    -> 'extends',
+    -> 'inherits',
+    -> 'super',
+    -> 'extends'),
+    ->
+    -> ('Which method is called automatically when object is created?',
+    -> 'main()',
+    -> 'start()',
+    -> 'constructor',
+    -> 'run()',
+    -> 'constructor'),
+    ->
+    -> ('Which operator is used for object reference comparison?',
+    -> '=',
+    -> '==',
+    -> 'equals',
+    -> '!=',
+    -> '=='),
+    ->
+    -> ('Which package contains ArrayList class?',
+    -> 'java.io',
+    -> 'java.sql',
+    -> 'java.util',
+    -> 'java.net',
+    -> 'java.util'),
+    ->
+    -> ('Which exception occurs when dividing by zero?',
+    -> 'IOException',
+    -> 'ArithmeticException',
+    -> 'NullPointerException',
+    -> 'SQLException',
+    -> 'ArithmeticException'),
+    ->
+    -> ('Which keyword is used to prevent inheritance?',
+    -> 'static',
+    -> 'final',
+    -> 'private',
+    -> 'protected',
+    -> 'final'),
+    ->
+    -> ('Which collection stores unique elements?',
+    -> 'ArrayList',
+    -> 'LinkedList',
+    -> 'HashSet',
+    -> 'Vector',
+    -> 'HashSet'),
+    ->
+    -> ('Which method is used to read integer input using Scanner?',
+    -> 'nextLine()',
+    -> 'nextInt()',
+    -> 'getInt()',
+    -> 'readInt()',
+    -> 'nextInt()'),
+    ->
+    -> ('Which keyword refers to current object?',
+    -> 'this',
+    -> 'super',
+    -> 'current',
+    -> 'object',
+    -> 'this'),
+    ->
+    -> ('Which component is used to create button in Swing?',
+    -> 'JTextField',
+    -> 'JFrame',
+    -> 'JButton',
+    -> 'JLabel',
+    -> 'JButton');
