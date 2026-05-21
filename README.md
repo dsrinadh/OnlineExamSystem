@@ -39,13 +39,18 @@ This project is designed to simulate a real-time online examination environment 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/OnlineExamSystem.git
+   
 
 2.Open the project in any Java IDE (NetBeans/Eclipse/IntelliJ).
+
 3.Import the MySQL connector JAR file (if not already included).
+
 4.Configure the database:
   Create a MySQL database
   Import required tables (if provided)
+  
 5.Update database credentials in DBConnection.java.
+
 6.Compile and run the project:
 
   -->Run Login.java or Main.java
